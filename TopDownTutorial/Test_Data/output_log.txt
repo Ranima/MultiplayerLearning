@@ -1,0 +1,33 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 770 (ID=0x1184)
+    Vendor:   NVIDIA
+    VRAM:     1989 MB
+    Driver:   22.21.13.8494
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.368 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.728157 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 2f54 -> priority: 1 
+  Thread -> id: 2af4 -> priority: 1 
+  Thread -> id: 5cc -> priority: 1 
+  Thread -> id: 2e00 -> priority: 1 

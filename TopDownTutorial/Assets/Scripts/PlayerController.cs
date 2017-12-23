@@ -6,6 +6,7 @@ using UnityEngine.Networking;
 public class PlayerController : NetworkBehaviour {
 
     public float speed = 100;
+    public float lookSpeed = 10;
     public float bulletTime = 2.0f;
     public int bulletSpeed = 6;
     public GameObject bulletPrefab;
@@ -20,15 +21,15 @@ public class PlayerController : NetworkBehaviour {
         }
 
         //moves the player (if the program recognizes non local players it will also try to move them.)// aaaaaaa
-        var x = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
+        var x = Input.GetAxis("Horizontal") * Time.deltaTime * lookSpeed;
         var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
 
-        transform.Translate(x, 0, 0);
+        transform.Rotate(0, x, 0);
         transform.Translate(0, 0, z);
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            Fire();
+            CmdFire();
         }
     }
 
@@ -39,10 +40,12 @@ public class PlayerController : NetworkBehaviour {
         GetComponent<MeshRenderer>().material.color = Color.magenta;
     }
 
-    void Fire()
+    [Command]
+    void CmdFire()
     {
         var bullet = (GameObject)Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
         bullet.GetComponent<Rigidbody>().velocity = bullet.transform.forward * bulletSpeed;
+        NetworkServer.Spawn(bullet);
         Destroy(bullet, bulletTime);
     }
 }

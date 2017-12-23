@@ -21,13 +21,13 @@ Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\
 Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.368 seconds
+- Completed reload, in  0.347 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.728157 ms
+UnloadTime: 0.735553 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 2f54 -> priority: 1 
-  Thread -> id: 2af4 -> priority: 1 
-  Thread -> id: 5cc -> priority: 1 
-  Thread -> id: 2e00 -> priority: 1 
+  Thread -> id: 1db0 -> priority: 1 
+  Thread -> id: 2aa0 -> priority: 1 
+  Thread -> id: 1c5c -> priority: 1 
+  Thread -> id: 180 -> priority: 1 

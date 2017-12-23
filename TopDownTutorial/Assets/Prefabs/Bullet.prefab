@@ -23,6 +23,9 @@ GameObject:
   - component: {fileID: 135298504600883774}
   - component: {fileID: 23438202920039060}
   - component: {fileID: 54287208536048958}
+  - component: {fileID: 114833477792453936}
+  - component: {fileID: 114123652639546550}
+  - component: {fileID: 114102768440668590}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -97,6 +100,70 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114102768440668590
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1690579957071008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6ddf04fd1531734688dd6d844b56a18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114123652639546550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1690579957071008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 3
+  m_SendInterval: 0
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
+--- !u!114 &114833477792453936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1690579957071008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 83
+    i1: 181
+    i2: 15
+    i3: 148
+    i4: 83
+    i5: 163
+    i6: 139
+    i7: 228
+    i8: 59
+    i9: 111
+    i10: 42
+    i11: 1
+    i12: 157
+    i13: 247
+    i14: 245
+    i15: 141
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!135 &135298504600883774
 SphereCollider:
   m_ObjectHideFlags: 1

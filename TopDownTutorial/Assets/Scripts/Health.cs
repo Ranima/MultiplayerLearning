@@ -13,6 +13,18 @@ public class Health : NetworkBehaviour {
 
     public RectTransform healthBar;
 
+    public bool destroyOnDeath = false;
+
+    private NetworkStartPosition[] spawnPoint;
+
+    private void Start()
+    {
+        if (isLocalPlayer)
+        {
+            spawnPoint = FindObjectsOfType<NetworkStartPosition>();
+        }
+    }
+
     public void TakeDamage(int amount)
     {
         if(!isServer)
@@ -23,9 +35,16 @@ public class Health : NetworkBehaviour {
         currentHealth -= amount;
         if(currentHealth <= 0)
         {
-            currentHealth = maxHealth;
-            
-            RpcRespawn();
+            if (destroyOnDeath)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                currentHealth = maxHealth;
+
+                RpcRespawn();
+            }
         }
         healthBar.sizeDelta = new Vector2(currentHealth, healthBar.sizeDelta.y);
     }

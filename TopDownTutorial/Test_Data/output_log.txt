@@ -1,33 +1,36 @@
 Initialize engine version: 2017.1.0f3 (472613c02cf7)
 GfxDevice: creating device client; threaded=1
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 770 (ID=0x1184)
-    Vendor:   NVIDIA
-    VRAM:     1989 MB
-    Driver:   22.21.13.8494
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 Graphics (ID=0x9874)
+    Vendor:   ATI
+    VRAM:     2386 MB
+    Driver:   21.19.414.1792
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
-Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
-Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\System.dll (this message is harmless)
-Platform assembly: C:\Users\s179135\Desktop\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.347 seconds
+Platform assembly: C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Raphael\Desktop\Repositories\MultiplayerLearning\TopDownTutorial\Test_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.094 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.735553 ms
-Setting up 4 worker threads for Enlighten.
-  Thread -> id: 1db0 -> priority: 1 
-  Thread -> id: 2aa0 -> priority: 1 
-  Thread -> id: 1c5c -> priority: 1 
-  Thread -> id: 180 -> priority: 1 
+UnloadTime: 2.000927 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1ef0 -> priority: 1 
+  Thread -> id: 2048 -> priority: 1 
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:57213} time {187227}, last rec time {185215} rtt {12} timeout {2000}
+ServerDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

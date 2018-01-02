@@ -10,6 +10,7 @@ public class PlayerController : NetworkBehaviour {
     public int bulletSpeed = 6;
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
+    private Vector3 mPos;
 
     void Update()
     {
@@ -22,7 +23,8 @@ public class PlayerController : NetworkBehaviour {
         //moves the player (if the program recognizes non local players it will also try to move them.)// aaaaaaa
         var x = Input.GetAxis("Horizontal") * Time.deltaTime * speed;
         var z = Input.GetAxis("Vertical") * Time.deltaTime * speed;
-        transform.LookAt(Input.mousePosition, Vector3.up);
+        mPos = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Camera.main.transform.position.z - transform.position.z));
+        transform.LookAt(mPos);
 
         transform.Translate(x, 0, 0, Space.World);
         transform.Translate(0, 0, z, Space.World);
